@@ -1,0 +1,202 @@
+<tournament>
+  <leagues>
+    <league abbrev="sim2d" id="68" name="Simulation 2021 Demo">
+      <leagueRound mode="298" name="Group Phase">
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r1_1" number="1" team1="1117" team2="1118"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r1_2" number="2" team1="1115" team2="1116"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r1_3" number="3" team1="1114"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r2_1" number="4" team1="1116" team2="1117"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r2_2" number="5" team1="1118"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r2_3" number="6" team1="1115" team2="1114"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r3_1" number="7" team1="1117"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r3_2" number="8" team1="1116" team2="1114"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r3_3" number="9" team1="1118" team2="1115"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r4_1" number="10" team1="1114" team2="1117"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r4_2" number="11" team2="1115"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r4_3" number="12" team1="1116" team2="1118"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r5_1" number="13" team1="1117" team2="1115"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r5_2" number="14" team1="1114" team2="1118"/>
+        <match comment="" groupName="Group 1" name="sim2d_1_g1_r5_3" number="15" team2="1116"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r1_1" number="16" team1="1122" team2="1120"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r1_2" number="17" team1="1119" team2="1121"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r1_3" number="18" team1="1123"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r2_1" number="19" team1="1121" team2="1122"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r2_2" number="20" team1="1120"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r2_3" number="21" team1="1119" team2="1123"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r3_1" number="22" team1="1122"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r3_2" number="23" team1="1121" team2="1123"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r3_3" number="24" team1="1120" team2="1119"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r4_1" number="25" team1="1123" team2="1122"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r4_2" number="26" team2="1119"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r4_3" number="27" team1="1121" team2="1120"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r5_1" number="28" team1="1122" team2="1119"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r5_2" number="29" team1="1123" team2="1120"/>
+        <match comment="" groupName="Group 2" name="sim2d_1_g2_r5_3" number="30" team2="1121"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r1_1" number="31" team1="1124" team2="1128"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r1_2" number="32" team1="1127" team2="1125"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r1_3" number="33" team1="1126"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r2_1" number="34" team1="1125" team2="1124"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r2_2" number="35" team1="1128"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r2_3" number="36" team1="1127" team2="1126"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r3_1" number="37" team1="1124"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r3_2" number="38" team1="1125" team2="1126"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r3_3" number="39" team1="1128" team2="1127"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r4_1" number="40" team1="1126" team2="1124"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r4_2" number="41" team2="1127"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r4_3" number="42" team1="1125" team2="1128"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r5_1" number="43" team1="1124" team2="1127"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r5_2" number="44" team1="1126" team2="1128"/>
+        <match comment="" groupName="Group 3" name="sim2d_1_g3_r5_3" number="45" team2="1125"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r1_1" number="46" team1="1130" team2="1129"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r1_2" number="47" team1="1131" team2="1132"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r1_3" number="48" team1="1133"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r2_1" number="49" team1="1132" team2="1130"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r2_2" number="50" team1="1129"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r2_3" number="51" team1="1131" team2="1133"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r3_1" number="52" team1="1130"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r3_2" number="53" team1="1132" team2="1133"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r3_3" number="54" team1="1129" team2="1131"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r4_1" number="55" team1="1133" team2="1130"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r4_2" number="56" team2="1131"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r4_3" number="57" team1="1132" team2="1129"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r5_1" number="58" team1="1130" team2="1131"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r5_2" number="59" team1="1133" team2="1129"/>
+        <match comment="" groupName="Group 4" name="sim2d_1_g4_r5_3" number="60" team2="1132"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r1_1" number="61" team1="1137" team2="1134"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r1_2" number="62" team1="1135" team2="1138"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r1_3" number="63" team1="1136"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r2_1" number="64" team1="1138" team2="1137"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r2_2" number="65" team1="1134"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r2_3" number="66" team1="1135" team2="1136"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r3_1" number="67" team1="1137"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r3_2" number="68" team1="1138" team2="1136"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r3_3" number="69" team1="1134" team2="1135"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r4_1" number="70" team1="1136" team2="1137"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r4_2" number="71" team2="1135"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r4_3" number="72" team1="1138" team2="1134"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r5_1" number="73" team1="1137" team2="1135"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r5_2" number="74" team1="1136" team2="1134"/>
+        <match comment="" groupName="Group 5" name="sim2d_1_g5_r5_3" number="75" team2="1138"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r1_1" number="76" team1="1139" team2="1140"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r1_2" number="77" team1="1144" team2="1143"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r1_3" number="78" team1="1141" team2="1142"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r2_1" number="79" team1="1143" team2="1139"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r2_2" number="80" team1="1140" team2="1142"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r2_3" number="81" team1="1144" team2="1141"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r3_1" number="82" team1="1139" team2="1142"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r3_2" number="83" team1="1143" team2="1141"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r3_3" number="84" team1="1140" team2="1144"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r4_1" number="85" team1="1141" team2="1139"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r4_2" number="86" team1="1142" team2="1144"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r4_3" number="87" team1="1143" team2="1140"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r5_1" number="88" team1="1139" team2="1144"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r5_2" number="89" team1="1141" team2="1140"/>
+        <match comment="" groupName="Group 6" name="sim2d_1_g6_r5_3" number="90" team1="1142" team2="1143"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r1_1" number="91" team1="1145" team2="1148"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r1_2" number="92" team1="1149" team2="1147"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r1_3" number="93" team1="1146"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r2_1" number="94" team1="1147" team2="1145"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r2_2" number="95" team1="1149" team2="1146"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r2_3" number="96" team1="1148"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r3_1" number="97" team1="1147" team2="1146"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r3_2" number="98" team1="1148" team2="1149"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r3_3" number="99" team1="1145"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r4_1" number="100" team1="1146" team2="1145"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r4_2" number="101" team1="1147" team2="1148"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r4_3" number="102" team1="1149"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r5_1" number="103" team1="1145" team2="1149"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r5_2" number="104" team1="1146" team2="1148"/>
+        <match comment="" groupName="Group 7" name="sim2d_1_g7_r5_3" number="105" team1="1147"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r1_1" number="106" team1="1152" team2="1151"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r1_2" number="107" team1="1150" team2="1153"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r1_3" number="108" team1="1154"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r2_1" number="109" team1="1153" team2="1152"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r2_2" number="110" team1="1150" team2="1154"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r2_3" number="111" team1="1151"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r3_1" number="112" team1="1153" team2="1154"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r3_2" number="113" team1="1151" team2="1150"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r3_3" number="114" team1="1152"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r4_1" number="115" team1="1154" team2="1152"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r4_2" number="116" team1="1153" team2="1151"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r4_3" number="117" team1="1150"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r5_1" number="118" team1="1152" team2="1150"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r5_2" number="119" team1="1154" team2="1151"/>
+        <match comment="" groupName="Group 8" name="sim2d_1_g8_r5_3" number="120" team1="1153"/>
+      </leagueRound>
+      <leagueRound mode="293" name="Round of 16">
+        <match comment="" name="sim2d_2_8th_1" number="121"/>
+        <match comment="" name="sim2d_2_8th_2" number="122"/>
+        <match comment="" name="sim2d_2_8th_3" number="123"/>
+        <match comment="" name="sim2d_2_8th_4" number="124"/>
+        <match comment="" name="sim2d_2_8th_5" number="125"/>
+        <match comment="" name="sim2d_2_8th_6" number="126"/>
+        <match comment="" name="sim2d_2_8th_7" number="127"/>
+        <match comment="" name="sim2d_2_8th_8" number="128"/>
+      </leagueRound>
+      <leagueRound mode="294" name="Quarter Finals">
+        <match comment="" name="sim2d_3_qf1" number="129"/>
+        <match comment="" name="sim2d_3_qf2" number="130"/>
+        <match comment="" name="sim2d_3_qf3" number="131"/>
+        <match comment="" name="sim2d_3_qf4" number="132"/>
+      </leagueRound>
+      <leagueRound mode="295" name="Semi Finals">
+        <match comment="" name="sim2d_4_sf1" number="133"/>
+        <match comment="" name="sim2d_4_sf2" number="134"/>
+      </leagueRound>
+      <leagueRound mode="297" name="Finals">
+        <match comment="" groupName=" 1. Set" name="sim2d_5_1st_fin" number="135"/>
+        <match comment="" groupName=" 2. Set" name="sim2d_5_2nd_fin" number="136"/>
+      </leagueRound>
+    </league>
+  </leagues>
+  <modes>
+    <mode id="293" modeFile="3" name="Finals, Round-of-16" params="[{&quot;name&quot;:&quot;Kind Of Finals&quot;,&quot;value&quot;:&quot;Round-of-16&quot;}]"/>
+    <mode id="294" modeFile="3" name="Finals, Quarter-Finals" params="[{&quot;name&quot;:&quot;Kind Of Finals&quot;,&quot;value&quot;:&quot;Quarter-Finals&quot;}]"/>
+    <mode id="295" modeFile="3" name="Finals, Semi-Finals" params="[{&quot;name&quot;:&quot;Kind Of Finals&quot;,&quot;value&quot;:&quot;Semi-Finals&quot;}]"/>
+    <mode id="297" modeFile="5" name="Full Finals, 2xGF After Seeding" params="[{&quot;name&quot;:&quot;Number Of Parallel Sets Of Finals&quot;,&quot;value&quot;:&quot;2&quot;},{&quot;name&quot;:&quot;Kind Of Finals&quot;,&quot;value&quot;:&quot;Grand Final&quot;},{&quot;name&quot;:&quot;This Round Is Played After&quot;,&quot;value&quot;:&quot;The Start Of The Tournament (Teams Seeded)&quot;}]"/>
+    <mode id="298" modeFile="1" name="Groups, 8 Groups, 6 Teams per Group" params="[{&quot;name&quot;:&quot;Number of groups&quot;,&quot;value&quot;:&quot;8&quot;},{&quot;name&quot;:&quot;Number of teams per group&quot;,&quot;value&quot;:&quot;6&quot;}]"/>
+  </modes>
+  <teams>
+    <team comment="Group 1" id="1114" league="68" name="i-bots 1" school="Germany" seedingnumber="25" startnumber="2"/>
+    <team comment="Group 1" id="1115" league="68" name="Team Orion" school="USA" seedingnumber="17" startnumber="7"/>
+    <team comment="Group 1" id="1116" league="68" name="XLC-Innovation" school="Slovakia" seedingnumber="41" startnumber="14"/>
+    <team comment="Group 1" id="1117" league="68" name="Reset" school="Taiwan" seedingnumber="9" startnumber="33"/>
+    <team comment="Group 1" id="1118" league="68" name="NOVA" school="Iran" seedingnumber="33" startnumber="40"/>
+    <team comment="Group 2" id="1119" league="68" name="SESI Stardust" school="Brazil" seedingnumber="18" startnumber="17"/>
+    <team comment="Group 2" id="1120" league="68" name="Bishop's Knights A" school="USA" seedingnumber="34" startnumber="34"/>
+    <team comment="Group 2" id="1121" league="68" name="Sonny_CT_ITALY" school="Italy" seedingnumber="42" startnumber="46"/>
+    <team comment="Group 2" id="1122" league="68" name="chaBots" school="Mexico" seedingnumber="10" startnumber="51"/>
+    <team comment="Group 2" id="1123" league="68" name="NT" school="Japan" seedingnumber="26" startnumber="15"/>
+    <team comment="Group 3" id="1124" league="68" name="Spongebot" school="USA" seedingnumber="11" startnumber="19"/>
+    <team comment="Group 3" id="1125" league="68" name="SESI Robotics School Makers" school="Brazil" seedingnumber="43" startnumber="21"/>
+    <team comment="Group 3" id="1126" league="68" name="Griffins" school="Slovakia" seedingnumber="27" startnumber="25"/>
+    <team comment="Group 3" id="1127" league="68" name="Bishop's Knights B" school="USA" seedingnumber="19" startnumber="36"/>
+    <team comment="Group 3" id="1128" league="68" name="ORKA Robotics" school="Hungary" seedingnumber="35" startnumber="43"/>
+    <team comment="Group 4" id="1129" league="68" name="Omicron" school="Australia" seedingnumber="36" startnumber="1"/>
+    <team comment="Group 4" id="1130" league="68" name="i-bots 2" school="Germany" seedingnumber="12" startnumber="3"/>
+    <team comment="Group 4" id="1131" league="68" name="Vantage" school="USA" seedingnumber="20" startnumber="9"/>
+    <team comment="Group 4" id="1132" league="68" name="RBL2 UTCAM" school="Mexico" seedingnumber="44" startnumber="29"/>
+    <team comment="Group 4" id="1133" league="68" name="SEMICOLON;" school="Russia" seedingnumber="28" startnumber="31"/>
+    <team comment="Group 5" id="1134" league="68" name="i-bots 3" school="Germany" seedingnumber="37" startnumber="4"/>
+    <team comment="Group 5" id="1135" league="68" name="Torus" school="USA" seedingnumber="21" startnumber="11"/>
+    <team comment="Group 5" id="1136" league="68" name="SESI ARMADILLOS - FAB LAB ESCOLA" school="Brazil" seedingnumber="29" startnumber="23"/>
+    <team comment="Group 5" id="1137" league="68" name="KW" school="Russia" seedingnumber="13" startnumber="32"/>
+    <team comment="Group 5" id="1138" league="68" name="ZZ" school="Mexico" seedingnumber="45" startnumber="50"/>
+    <team comment="Group 6" id="1139" league="68" name="i-bots 4" school="Germany" seedingnumber="14" startnumber="5"/>
+    <team comment="Group 6" id="1140" league="68" name="TFA 312" school="Canada" seedingnumber="38" startnumber="24"/>
+    <team comment="Group 6" id="1141" league="68" name="Sachisti" school="Slovakia" seedingnumber="30" startnumber="26"/>
+    <team comment="Group 6" id="1142" league="68" name="Bishop's Knights C" school="USA" seedingnumber="54" startnumber="37"/>
+    <team comment="Group 6" id="1143" league="68" name="NewEtnaTeam" school="Italy" seedingnumber="46" startnumber="47"/>
+    <team comment="Group 6" id="1144" league="68" name="DDStudioRobotics" school="Hungary" seedingnumber="22" startnumber="54"/>
+    <team comment="Group 7" id="1145" league="68" name="SESI Tatu F.C." school="Brazil" seedingnumber="15" startnumber="27"/>
+    <team comment="Group 7" id="1146" league="68" name="Bishop's Knights D" school="USA" seedingnumber="31" startnumber="38"/>
+    <team comment="Group 7" id="1147" league="68" name="Loco Moco Don" school="Japan" seedingnumber="47" startnumber="39"/>
+    <team comment="Group 7" id="1148" league="68" name="King Kong" school="Taiwan" seedingnumber="39" startnumber="42"/>
+    <team comment="Group 7" id="1149" league="68" name="i-bots 5" school="Germany" seedingnumber="23" startnumber="6"/>
+    <team comment="Group 8" id="1150" league="68" name="Helveticrobot" school="Switzerland" seedingnumber="24" startnumber="8"/>
+    <team comment="Group 8" id="1151" league="68" name="Williamstown High School's Finest" school="Australia" seedingnumber="40" startnumber="10"/>
+    <team comment="Group 8" id="1152" league="68" name="Kancho Jizo" school="USA" seedingnumber="16" startnumber="13"/>
+    <team comment="Group 8" id="1153" league="68" name="RBL1 UTCAM" school="Mexico" seedingnumber="48" startnumber="28"/>
+    <team comment="Group 8" id="1154" league="68" name="GJH_team" school="Slovakia" seedingnumber="32" startnumber="41"/>
+  </teams>
+</tournament>
