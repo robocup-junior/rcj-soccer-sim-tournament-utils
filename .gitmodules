@@ -1,0 +1,12 @@
+[submodule "rcj-soccer-sim"]
+	path = rcj-soccer-sim
+	url = https://github.com/RoboCupJuniorTC/rcj-soccer-sim
+[submodule "x11docker"]
+	path = x11docker
+	url = https://github.com/mviereck/x11docker.git
+[submodule "rcj-soccer-2021-robot-code"]
+	path = rcj-soccer-2021-robot-code
+	url = git@github.com:RoboCupJuniorTC/rcj-soccer-2021-robot-code.git
+[submodule "rcj-soccer-sim-2021-robot-code"]
+	path = rcj-soccer-sim-2021-robot-code
+	url = git@github.com:RoboCupJuniorTC/rcj-soccer-sim-2021-robot-code.git
