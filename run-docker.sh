@@ -17,6 +17,10 @@
 --env TEAM_BLUE_NAME="$(cat $(pwd)/rcj-soccer-sim-2021-robot-code/${TEAM_B}/team_name.txt)" \
 --env TEAM_BLUE_ID=${TEAM_B} \
 --env RCJ_SIM_AUTO_MODE=true \
+--env TEAM_B_INITIAL_SCORE=${TEAM_B_INITIAL_SCORE} \
+--env TEAM_Y_INITIAL_SCORE=${TEAM_Y_INITIAL_SCORE} \
+--env MATCH_ID=${MATCH_ID} \
+--env HALF_ID=${HALF_ID} \
 --rm \
 -- rcj-soccer-sim
 

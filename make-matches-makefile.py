@@ -3,8 +3,8 @@
 import sys
 import xml.etree.ElementTree as ET
 
-if len(sys.argv) != 3:
-  exit("Usage: " + sys.argv[0] + " rcj-soccer-sys-games-export.xml Output-Makefile")
+if len(sys.argv) < 3:
+  exit("Usage: " + sys.argv[0] + " rcj-soccer-sys-games-export.xml Output-Makefile [optional group filter e.g. g1]")
 
 root = ET.parse(sys.argv[1]).getroot()
 
@@ -30,6 +30,9 @@ for league in root.findall('leagues')[0]:
       except:
         pass
 
+if len(sys.argv) == 4:
+  games = [game for game in games if sys.argv[3] in game['name']]
+
 f = open(sys.argv[2], 'w')
 
 f.write('all: ')
@@ -43,6 +46,6 @@ for game in games:
   f.write(game['name'] + ':\n')
   f.write('\tbash -c "MATCH_ID=' + game['name'] + ' HALF_ID=0 TEAM_B=' + game['team2'] + ' TEAM_Y=' + game['team1'] + ' ./run-docker.sh"\n')
   f.write('\tbash -c "MATCH_ID=' + game['name'] + ' HALF_ID=1 TEAM_B=' + game['team1'] + ' TEAM_Y=' + game['team2'] + \
-    ' TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/' + game['name'] + '_-_0*.jsonl yellow)' +\
-    ' TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/' + game['name'] + '_-_0*.jsonl blue)' +\
+    ' TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ ' + game['name'] + ' yellow)' +\
+    ' TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ ' + game['name'] + ' blue)' +\
     ' ./run-docker.sh"\n')
