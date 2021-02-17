@@ -1,0 +1,32 @@
+all: sim2d_1_g3_r1_1 sim2d_1_g3_r1_2 sim2d_1_g3_r2_1 sim2d_1_g3_r2_3 sim2d_1_g3_r3_2 sim2d_1_g3_r3_3 sim2d_1_g3_r4_1 sim2d_1_g3_r4_3 sim2d_1_g3_r5_1 sim2d_1_g3_r5_2
+
+sim2d_1_g3_r1_1:
+	bash -c "MATCH_ID=sim2d_1_g3_r1_1 HALF_ID=0 TEAM_B=043 TEAM_Y=019 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_1_g3_r1_1 HALF_ID=1 TEAM_B=019 TEAM_Y=043 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r1_1 yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r1_1 blue) ./run-docker.sh"
+sim2d_1_g3_r1_2:
+	bash -c "MATCH_ID=sim2d_1_g3_r1_2 HALF_ID=0 TEAM_B=021 TEAM_Y=036 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_1_g3_r1_2 HALF_ID=1 TEAM_B=036 TEAM_Y=021 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r1_2 yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r1_2 blue) ./run-docker.sh"
+sim2d_1_g3_r2_1:
+	bash -c "MATCH_ID=sim2d_1_g3_r2_1 HALF_ID=0 TEAM_B=019 TEAM_Y=021 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_1_g3_r2_1 HALF_ID=1 TEAM_B=021 TEAM_Y=019 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r2_1 yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r2_1 blue) ./run-docker.sh"
+sim2d_1_g3_r2_3:
+	bash -c "MATCH_ID=sim2d_1_g3_r2_3 HALF_ID=0 TEAM_B=025 TEAM_Y=036 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_1_g3_r2_3 HALF_ID=1 TEAM_B=036 TEAM_Y=025 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r2_3 yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r2_3 blue) ./run-docker.sh"
+sim2d_1_g3_r3_2:
+	bash -c "MATCH_ID=sim2d_1_g3_r3_2 HALF_ID=0 TEAM_B=025 TEAM_Y=021 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_1_g3_r3_2 HALF_ID=1 TEAM_B=021 TEAM_Y=025 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r3_2 yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r3_2 blue) ./run-docker.sh"
+sim2d_1_g3_r3_3:
+	bash -c "MATCH_ID=sim2d_1_g3_r3_3 HALF_ID=0 TEAM_B=036 TEAM_Y=043 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_1_g3_r3_3 HALF_ID=1 TEAM_B=043 TEAM_Y=036 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r3_3 yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r3_3 blue) ./run-docker.sh"
+sim2d_1_g3_r4_1:
+	bash -c "MATCH_ID=sim2d_1_g3_r4_1 HALF_ID=0 TEAM_B=019 TEAM_Y=025 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_1_g3_r4_1 HALF_ID=1 TEAM_B=025 TEAM_Y=019 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r4_1 yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r4_1 blue) ./run-docker.sh"
+sim2d_1_g3_r4_3:
+	bash -c "MATCH_ID=sim2d_1_g3_r4_3 HALF_ID=0 TEAM_B=043 TEAM_Y=021 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_1_g3_r4_3 HALF_ID=1 TEAM_B=021 TEAM_Y=043 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r4_3 yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r4_3 blue) ./run-docker.sh"
+sim2d_1_g3_r5_1:
+	bash -c "MATCH_ID=sim2d_1_g3_r5_1 HALF_ID=0 TEAM_B=036 TEAM_Y=019 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_1_g3_r5_1 HALF_ID=1 TEAM_B=019 TEAM_Y=036 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r5_1 yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r5_1 blue) ./run-docker.sh"
+sim2d_1_g3_r5_2:
+	bash -c "MATCH_ID=sim2d_1_g3_r5_2 HALF_ID=0 TEAM_B=043 TEAM_Y=025 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_1_g3_r5_2 HALF_ID=1 TEAM_B=025 TEAM_Y=043 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r5_2 yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g3_r5_2 blue) ./run-docker.sh"

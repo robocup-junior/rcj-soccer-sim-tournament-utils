@@ -1,0 +1,4 @@
+all: sim2d_1_g1_r1_1
+
+sim2d_1_g1_r1_1:
+	bash -c "MATCH_ID=sim2d_1_g1_r1_1 HALF_ID=1 TEAM_B=033 TEAM_Y=040 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out sim2d_1_g1_r1_1 yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_1_g1_r1_1 blue) ./run-docker.sh"
