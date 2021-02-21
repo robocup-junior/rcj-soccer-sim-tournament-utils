@@ -1,9 +1,9 @@
 #!/bin/bash
 #./x11docker/x11docker --gpu --network=none -- \
-./x11docker/x11docker --gpu --runtime=nvidia --network=none -- \
+./x11docker/x11docker --gpu --xorg --runtime=nvidia --network=none -- \
 -v ${HOME}/webots_video_out/:/out \
 -v $(pwd)/rcj-soccer-sim-2021-robot-code/${TEAM_Y}/robot1/robot1.py:/app/controllers/rcj_soccer_player_y1/rcj_soccer_player_y1.py:ro \
--v $(pwd)/rcj-soccer-sim-2021-robot-code/${TEAM_Y}/robot2/robot2.py:/app/controllers/rcj_soccer_player_y2/rcj_soccer_player_y3.py:ro \
+-v $(pwd)/rcj-soccer-sim-2021-robot-code/${TEAM_Y}/robot2/robot2.py:/app/controllers/rcj_soccer_player_y2/rcj_soccer_player_y2.py:ro \
 -v $(pwd)/rcj-soccer-sim-2021-robot-code/${TEAM_Y}/robot3/robot3.py:/app/controllers/rcj_soccer_player_y3/rcj_soccer_player_y3.py:ro \
 -v $(pwd)/rcj-soccer-sim-2021-robot-code/${TEAM_Y}/team_libraries/:/app/controllers/team_${TEAM_Y}_libraries/:ro \
 -v $(pwd)/rcj-soccer-sim-2021-robot-code/${TEAM_Y}/logo.png:/app/worlds/soccer/yellow.png:ro \

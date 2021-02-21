@@ -1,0 +1,8 @@
+all: sim2d_5_1st_fin sim2d_5_2nd_fin
+
+sim2d_5_1st_fin:
+	bash -c "MATCH_ID=sim2d_5_1st_fin HALF_ID=0 TEAM_B=024 TEAM_Y=021 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_5_1st_fin HALF_ID=1 TEAM_B=021 TEAM_Y=024 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_5_1st_fin yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_5_1st_fin blue) ./run-docker.sh"
+sim2d_5_2nd_fin:
+	bash -c "MATCH_ID=sim2d_5_2nd_fin HALF_ID=0 TEAM_B=043 TEAM_Y=014 ./run-docker.sh"
+	bash -c "MATCH_ID=sim2d_5_2nd_fin HALF_ID=1 TEAM_B=014 TEAM_Y=043 TEAM_B_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_5_2nd_fin yellow) TEAM_Y_INITIAL_SCORE=$$(./get_score.py ~/webots_video_out/ sim2d_5_2nd_fin blue) ./run-docker.sh"
