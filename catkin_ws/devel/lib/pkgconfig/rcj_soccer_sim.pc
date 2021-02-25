@@ -1,0 +1,8 @@
+prefix=/catkin_ws/devel
+
+Name: rcj_soccer_sim
+Description: Description of rcj_soccer_sim
+Version: 0.0.1
+Cflags: -I/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime

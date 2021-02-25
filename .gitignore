@@ -4,3 +4,5 @@
 *.pyc
 Makefile
 x11docker/
+catkin_ws/build/
+outputs/

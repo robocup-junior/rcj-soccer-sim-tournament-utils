@@ -1,0 +1,11 @@
+FROM ubuntu:focal
+RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get -y install gpg supervisor && sh -c '. /etc/lsb-release && echo "deb http://packages.ros.org.ros.informatik.uni-freiburg.de/ros/ubuntu $DISTRIB_CODENAME main" > /etc/apt/sources.list.d/ros-latest.list' && apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654 && apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install ros-noetic-ros-base python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential ros-noetic-ros-base ros-noetic-rosbag ros-noetic-rosbaglive && rosdep init && rosdep update
+#ENV NVIDIA_VISIBLE_DEVICES all
+#ENV NVIDIA_DRIVER_CAPABILITIES graphics,utility,compute
+ENTRYPOINT supervisord -nc /supervisor.conf
+#ENTRYPOINT bash -c ". /opt/ros/noetic/setup.bash ; roscore"
+COPY supervisor.conf /supervisor.conf
+COPY *.sh /robots/
+COPY catkin_ws /catkin_ws
+RUN bash -c "source /opt/ros/noetic/setup.bash && source /catkin_ws/devel/setup.bash && cd /catkin_ws/ && catkin_make"
+VOLUME /bots
